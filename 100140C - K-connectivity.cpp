@@ -1,6 +1,19 @@
 //problem C: https://codeforces.com/gym/100140/attachments
 //submission: https://codeforces.com/gym/100140/submission/35121041
 
+// Problem overview:
+//   There is a graph.
+//   Need to delete minimal number of edges, so graph will become disconnected.
+
+// Data structures and algorithms usage:
+//   Maximum flow search
+//   Breadth First Search
+//   Depth First Search
+//   Dinic's algorithm
+
+// Time complexities:
+//   Problem is solved in O(N^2 M) time complexity, where N is number of vertexes and M is number of edges in the graph
+
 #include <iostream>
 #include <vector>
 #include <queue>

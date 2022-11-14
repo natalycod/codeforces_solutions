@@ -1,5 +1,17 @@
-//problem: https://codeforces.com/contest/1202/problem/E
+//problem: https://codeforces.com/contest/1202/problem/E?locale=en
 //submission: https://codeforces.com/contest/1202/submission/58677177
+
+// Problem overview:
+//   f(t, s) = the number of occurences of string s in string t
+//   There is string T and N strings Si
+//   Need to calculate the sum of f(T, Si + Sj) for all the pairs i, j.
+
+// Data structures and algorithms usage:
+//   Trie structure
+//   Aho–Corasick algorithm
+
+// Time complexities:
+//   Problem is solved in O(len) time complexity, where len is the summary length of all the given strings
 
 #include <iostream>
 #include <vector>

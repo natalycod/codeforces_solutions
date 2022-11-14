@@ -1,5 +1,21 @@
-//problem: https://codeforces.com/contest/916/problem/E
+//problem: https://codeforces.com/contest/916/problem/E?locale=en
 //submission: https://codeforces.com/contest/916/submission/36314825
+
+// Problem overview:
+//   There is a rooted tree (connective graph without cycles). Every node contains a number.
+//   Need to perform 3 operations:
+//   1. Change the root of the tree to the given node
+//   2. Given 2 nodes V, U. Need to find the Lowest Common Ancestor of V, U and add given number X to every node in its subtree
+//   3. Find sum of values in given subtree
+
+// Data structures and algorithms usage:
+//   Segment Tree
+//   Depth First Search
+//   Lowest Common Ancestor
+
+// Time complexities:
+//   First operation is performed in O(1) time complexity
+//   Operations 2 and 3 are performed in O(log N) time complexity
 
 #include <iostream>
 #include <vector>

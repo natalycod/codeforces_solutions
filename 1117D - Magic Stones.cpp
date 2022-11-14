@@ -1,5 +1,18 @@
-//problem: https://codeforces.com/contest/1117/problem/D
+//problem: https://codeforces.com/contest/1117/problem/D?locale=en
 //submission: https://codeforces.com/contest/1117/submission/50126520
+
+// Problem overview:
+//   There are N magic stones. Every stone can be divided into M regular stones.
+//   We can choose some of the N stones and divide some of them into regular stones, but in the end number of stones has to be equal to N.
+//   Need to find the number of different possible configurations.
+//   Configurations are different if the number of choosen magic stones are different or the indices of divided stones in the choosen set are different.
+
+// Data structures and algorithms usage:
+//   Matrix operations
+//   Binary exponentiation
+
+// Time complexities:
+//   Problem is solved in O(M^3 log N) time complexity
 
 #include <iostream>
 #include <vector>

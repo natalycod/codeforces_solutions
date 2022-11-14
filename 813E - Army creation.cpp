@@ -1,5 +1,17 @@
-//problem: https://codeforces.com/contest/813/problem/E
-//submission: https://codeforces.com/contest/813/submission/38689195
+// problem: https://codeforces.com/contest/813/problem/E?locale=en
+// submission: https://codeforces.com/contest/813/submission/38689195
+
+// Problem overview:
+//   There is an array A with N numbers and number K.
+//   Need to answer several queries:
+//   Find the size of the biggest subset of the fraction [L; R] of the array A, where there is no subsubset of K+1 equal numbers.
+
+// Data structures and algorithms usage:
+//   Persistent Segment Tree
+
+// Time complexities:
+//   Operations are performed offline with O(log^2 (N)) time complexity for every query
+//   Pre-calculation is performed in O(N log N) time complexity
 
 #include <iostream>
 #include <map>

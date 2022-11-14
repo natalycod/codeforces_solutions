@@ -1,5 +1,16 @@
-//problem: https://codeforces.com/contest/1061/problem/C
+//problem: https://codeforces.com/contest/1061/problem/C?locale=en
 //submission: https://codeforces.com/contest/1061/submission/46083391
+
+// Problem overview:
+//   There is an array A of N numbers.
+//   Subsequence B is good if for every index i the B[i] is divisible by i
+//   Need to find a number of good subsequences in A.
+
+// Data structures and algorithms usage:
+//   Sieve of Eratosthenes
+
+// Time complexities:
+//   Problem is solved in O(N log N) time complexity
 
 #include <iostream>
 #include <vector>

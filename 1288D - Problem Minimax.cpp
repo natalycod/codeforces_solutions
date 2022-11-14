@@ -1,5 +1,17 @@
-//task: https://codeforces.com/contest/1288/problem/D
+//task: https://codeforces.com/contest/1288/problem/D?locale=en
 //submission: https://codeforces.com/contest/1288/submission/68793393
+
+// Problem overview:
+//   There are N arrays Ai of M numbers.
+//   f(i, j) = min(max(Ai[x], Aj[x]) for all x <= M)
+//   Need to find indices i, j <= N such as f(i, j) is maximum possible
+
+// Data structures and algorithms usage:
+//   Brute force
+//   Binary Search
+
+// Time complexities:
+//   Problem is solved in O(log K * 2^(2M)) time complexity, where K is the biggest number in all the arrays
 
 #include <iostream>
 #include <vector>

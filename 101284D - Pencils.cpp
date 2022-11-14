@@ -1,6 +1,16 @@
 //problem D: https://codeforces.com/gym/101284/attachments
 //submission: https://codeforces.com/gym/101284/submission/35415520
 
+// Problem overview:
+//   There are N arrays of numbers.
+//   Need to choose K of them, so after choosen arrays are merged together, the difference between minimum and maximum number is as small as possible.
+
+// Data structures and algorithms usage:
+//   Cartesian Tree
+
+// Time complexities:
+//   Problem is solved in O(N log N) time complexity
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

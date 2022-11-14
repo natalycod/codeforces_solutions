@@ -1,5 +1,16 @@
-//problem: https://codeforces.com/contest/1019/problem/D
+//problem: https://codeforces.com/contest/1019/problem/D?locale=en
 //submission: https://codeforces.com/contest/1019/submission/41631502
+
+// Problem overview:
+//   There are N points.
+//   Need to find triangle with the area equal to given number S (or say that there is no triangle with such area)
+
+// Data structures and algorithms usage:
+//   Geometry basics
+//   Binary search
+
+// Time complexities:
+//   Triangle is found in O(N^2) time complexity
 
 #include <algorithm>
 #include <iostream>

@@ -1,5 +1,20 @@
-//problem: https://codeforces.com/contest/342/problem/E
-//submission: https://codeforces.com/contest/342/submission/36279219
+// problem: https://codeforces.com/contest/342/problem/E?locale=en
+// submission: https://codeforces.com/contest/342/submission/36279219
+
+// Problem overview:
+//   There is a tree (connective graph without cycles). First node is red, others are blue.
+//   Need to make 2 operations:
+//   1. Paint given blue node in red color
+//   2. Calculate the closest red node to the given one (print the distance)
+
+// Data structures and algorithms usage:
+//   Centroid Decomposition
+//   Lowest Common Ancestor
+//   Depth First Search
+
+// Time complexities:
+//   Both operations are performed in O(log^2 (N)) time complexity
+//   Pre-calculation is performed in O(N) time complexity
 
 #include <iostream>
 #include <vector>
